@@ -1,8 +1,4 @@
 #!/usr/bin/python
-# Nick Hnatiw
-#  Home work assignment 1
-#  Natural Language Processing
-#  S. Nirenburg
 
 import sys
 import operator
@@ -69,7 +65,7 @@ class app:
         
 
     def usage(self):
-        print 'USAGE: hw1-hnatiw.py [options]'
+        print 'USAGE: n-gram_parser.py [options]'
         print '\nThis program takes in a flat txt file corpus and creates a'
         print '   frequency distribution table.'
         print '     -c corpus          File that contains corpus to be scanned'
